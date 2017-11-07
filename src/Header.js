@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './airbnbLogo.svg';
 
 export default function () {
 	return (
-		<header className="App-header">
-   			<img src={logo} className="App-logo" alt="logo" />
-   			<h1 className="App-title">Welcome to React</h1>
+		<header className="header">
+			<div className="row">
+				<img src={logo} className="logo" alt="Airbnb" />
+			</div>
 		</header>
     );
 }
