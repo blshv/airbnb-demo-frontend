@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Header from './Header';
 import Explore from './Explore';
 import 'normalize.css';
-import 'flexboxgrid2';
-import './App.css';
+import './styled';
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <main>
         <Header />
-        <Explore />
+        <div className="container">
+          <div className="main">
+            <Explore />
+          </div>
+        </div>
       </main>
-    )
+    );
   }
 }
 
